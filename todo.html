@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Site - Todo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">MySite</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="todo.html" class="active">Todo</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="box">
+      <h2>Todo List</h2>
+      <form id="todoForm" class="row">
+        <input type="text" id="todoInput" placeholder="New task type pannunga...">
+        <button type="submit" class="btn">Add</button>
+      </form>
+      <ul id="todoList"></ul>
+      <p id="todoEmpty" class="muted">Tasks edhuvum illa.</p>
+    </div>
+  </main>
+
+  <footer>&copy; <span id="year"></span> MySite</footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/todo.js"></script>
+</body>
+</html>
