@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Site - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">MySite</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="todo.html">Todo</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 id="greeting">Welcome!</h2>
+      <p>Idhu oru simple HTML, CSS, JS project.</p>
+      <button id="themeBtn" class="btn">Dark Mode</button>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Todo List</h3>
+        <p>Unga daily tasks add pannunga, delete pannunga.</p>
+        <a href="todo.html" class="btn">Open</a>
+      </div>
+      <div class="card">
+        <h3>Contact Form</h3>
+        <p>Form validation oda simple contact page.</p>
+        <a href="contact.html" class="btn">Open</a>
+      </div>
+      <div class="card">
+        <h3>Counter</h3>
+        <p>Count: <span id="count">0</span></p>
+        <button id="countBtn" class="btn">+1</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> MySite</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
